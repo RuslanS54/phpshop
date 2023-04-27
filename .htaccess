@@ -9,6 +9,3 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)$ index.php
 
 order allow,deny
-Allow from 127.0.0.1
-Deny from 192.168.1.5
-Deny from 192.168.1.24
